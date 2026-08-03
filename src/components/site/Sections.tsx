@@ -377,7 +377,7 @@ export function Contact() {
             <div className="h-full overflow-hidden rounded-3xl border border-gold/30 shadow-[var(--shadow-soft)]">
               <iframe
                 title="DK Agarbatti locations map"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=72.6%2C15.3%2C74.2%2C19.3&layer=mapnik"
+                src="https://maps.google.com/maps?q=Bambolim,+Goa&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 className="h-[420px] w-full lg:h-full"
                 loading="lazy"
               />
