@@ -31,7 +31,7 @@ export function FloatingActions() {
       </AnimatePresence>
 
       <a
-        href={`tel:${PHONES[0]}`}
+        href={`tel:+91${PHONES[0]}`}
         aria-label="Call DK Agarbatti"
         className="grid h-12 w-12 place-items-center rounded-full bg-primary text-primary-foreground shadow-[var(--shadow-soft)] transition-transform hover:scale-110"
       >
@@ -71,7 +71,8 @@ export function Loader() {
               transition={{ duration: 2.2, repeat: Infinity, ease: "linear" }}
               className="mx-auto h-14 w-14 rounded-full border-2 border-gold/25 border-t-gold-deep"
             />
-            <p className="mt-5 font-display text-xl tracking-wide text-primary">DK Agarbatti</p>
+            <p className="mt-5 font-display text-xl tracking-wide text-primary">DK Agarbatti & Club</p>
+            <p className="text-[11px] uppercase tracking-widest text-muted-foreground">Wholesaler</p>
           </div>
         </motion.div>
       )}

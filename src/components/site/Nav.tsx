@@ -41,10 +41,10 @@ export function Nav() {
           />
           <span className="min-w-0">
             <span className="block truncate font-display text-lg font-semibold leading-none text-primary sm:text-xl">
-              DK Agarbatti
+              DK Agarbatti & Club
             </span>
             <span className="block truncate text-[11px] tracking-wide text-muted-foreground">
-              & Club · Pooja Store
+              Wholesaler
             </span>
           </span>
         </a>
@@ -60,7 +60,7 @@ export function Nav() {
             </a>
           ))}
           <a
-            href={`tel:${PHONES[0]}`}
+            href={`tel:+91${PHONES[0]}`}
             className="rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-transform duration-300 hover:scale-105"
           >
             Call Now
@@ -96,7 +96,7 @@ export function Nav() {
                 </a>
               ))}
               <a
-                href={`tel:${PHONES[0]}`}
+                href={`tel:+91${PHONES[0]}`}
                 className="mt-2 block rounded-xl bg-primary px-3 py-2.5 text-center text-sm font-medium text-primary-foreground"
               >
                 Call {PHONES[0]}

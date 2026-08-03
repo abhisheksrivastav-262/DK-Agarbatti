@@ -34,9 +34,10 @@ export function Hero() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-2xl"
         >
-          <span className="inline-flex items-center gap-2 rounded-full border border-gold/45 bg-card/60 px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.28em] text-gold-deep backdrop-blur">
-            <Sparkles size={13} /> DK Agarbatti & Club
-          </span>
+          <div className="inline-flex flex-col items-center gap-1 rounded-3xl border border-gold/45 bg-card/60 px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-gold-deep backdrop-blur sm:items-start sm:px-5">
+            <span className="flex items-center gap-2"><Sparkles size={13} /> DK Agarbatti & Club</span>
+            <span className="text-[9px] text-muted-foreground">Wholesaler</span>
+          </div>
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-primary sm:text-6xl lg:text-7xl">
             Complete Pooja <span className="text-gilded">Products Store</span>

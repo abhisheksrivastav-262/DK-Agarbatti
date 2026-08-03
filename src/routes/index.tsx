@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Premium agarbatti, dhoop, camphor, brass diya, pooja thali and festival pooja kits. DK Agarbatti & Club — Maharashtra & Panjim, Goa. Call 7820908684.",
+          "Premium agarbatti, dhoop, camphor, brass diya, pooja thali and festival pooja kits. DK Agarbatti & Club Wholesaler — Maharashtra & Panjim, Goa. Call 7820908684.",
       },
       { property: "og:title", content: "DK Agarbatti — Complete Pooja Products Store" },
       {
@@ -54,7 +54,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen overflow-x-hidden bg-background">
       <Loader />
       <Nav />
       <main>

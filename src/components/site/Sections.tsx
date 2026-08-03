@@ -29,13 +29,15 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { PRODUCT_GROUPS, WHY_US, TESTIMONIALS, FAQS, PHONES, EMAIL, WHATSAPP } from "@/lib/site-data";
+import new1 from "@/assets/new.png";
+import new2 from "@/assets/new2.png";
+import new3 from "@/assets/new3.png";
+import new4 from "@/assets/new4.png";
+import new5 from "@/assets/new5.png";
+import new6 from "@/assets/new6.png";
+import new7 from "@/assets/new7.png";
+import new8 from "@/assets/new8.png";
 import temple from "@/assets/temple.jpg";
-import gAgarbatti from "@/assets/g-agarbatti.jpg";
-import gDiya from "@/assets/g-diya.jpg";
-import gThali from "@/assets/g-thali.jpg";
-import gBrass from "@/assets/g-brass.jpg";
-import gMala from "@/assets/g-mala.jpg";
-import gHavan from "@/assets/g-havan.jpg";
 
 const GROUP_ICONS = [Flame, Droplets, Bell, Flower2, Gem, Gift];
 const WHY_ICONS = [BadgeCheck, Wallet, Leaf, Truck, Users, PackageCheck, Wind, HeartHandshake];
@@ -68,7 +70,7 @@ export function About() {
             </h2>
             <div className="gold-rule mt-5 w-40" />
             <p className="mt-6 text-sm leading-relaxed text-muted-foreground sm:text-base">
-              DK Agarbatti provides premium quality agarbatti and complete pooja essentials for homes,
+              DK Agarbatti & Club provides premium quality agarbatti and complete pooja essentials for homes,
               temples, shops and religious ceremonies. Our mission is to deliver purity, fragrance and
               devotion through every product we make and every order we pack.
             </p>
@@ -184,13 +186,14 @@ export function WhyUs() {
 }
 
 const GALLERY = [
-  { src: gAgarbatti, alt: "Premium agarbatti incense sticks", h: 1024 },
-  { src: gDiya, alt: "Rows of lit diya oil lamps", h: 1400 },
-  { src: gThali, alt: "Brass pooja thali with kumkum and haldi", h: 1024 },
-  { src: gBrass, alt: "Brass kalash, bell and panchpatra set", h: 1280 },
-  { src: gMala, alt: "Rudraksha mala with chandan and camphor", h: 1024 },
-  { src: gHavan, alt: "Havan kund fire ritual with samagri", h: 1300 },
-  { src: temple, alt: "Temple decorated with marigold garlands", h: 1280 },
+  { src: new1, alt: "Gallery Image 1", h: 1024 },
+  { src: new2, alt: "Gallery Image 2", h: 1400 },
+  { src: new3, alt: "Gallery Image 3", h: 1024 },
+  { src: new4, alt: "Gallery Image 4", h: 1280 },
+  { src: new5, alt: "Gallery Image 5", h: 1024 },
+  { src: new6, alt: "Gallery Image 6", h: 1300 },
+  { src: new7, alt: "Gallery Image 7", h: 1280 },
+  { src: new8, alt: "Gallery Image 8", h: 1024 },
 ];
 
 export function Gallery() {
@@ -202,7 +205,7 @@ export function Gallery() {
           title="A glimpse of the sacred"
           subtitle="Agarbatti, diyas, brass ware, malas and rituals from our collection."
         />
-        <div className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
+        <div className="mt-14 columns-2 gap-3 sm:columns-2 sm:gap-5 lg:columns-3 [&>*]:mb-3 sm:[&>*]:mb-5">
           {GALLERY.map((g, i) => (
             <Reveal key={g.alt} delay={Math.min(i * 0.05, 0.3)}>
               <figure className="group overflow-hidden rounded-3xl border border-gold/25 shadow-[var(--shadow-soft)]">

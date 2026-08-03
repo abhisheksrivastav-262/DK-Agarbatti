@@ -1,6 +1,6 @@
-export const PHONES = ["7820908684", "8446239186"];
+export const PHONES = ["7820908684"];
 export const EMAIL = "dkagarbatti2025@gmail.com";
-export const WHATSAPP = "917820908684";
+export const WHATSAPP = "918446239186";
 export const TAGLINE = "हर घर में सुगंध, हर मन में शांति";
 
 export type ProductGroup = {
@@ -140,6 +140,6 @@ export const FAQS = [
   },
   {
     q: "Can I order on WhatsApp?",
-    a: "Absolutely. Send us your list on WhatsApp at 7820908684 and we will confirm the price and delivery time right away.",
+    a: "Absolutely. Send us your list on WhatsApp at 8446239186 and we will confirm the price and delivery time right away.",
   },
 ];

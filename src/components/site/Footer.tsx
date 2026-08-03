@@ -27,9 +27,9 @@ export function Footer() {
             />
             <span className="min-w-0">
               <span className="block truncate font-display text-xl font-semibold text-primary">
-                DK Agarbatti
+                DK Agarbatti & Club
               </span>
-              <span className="block truncate text-[11px] text-muted-foreground">& Club</span>
+              <span className="block truncate text-[11px] text-muted-foreground">Wholesaler</span>
             </span>
           </div>
           <p className="mt-4 font-display text-base text-gold-deep">{TAGLINE}</p>
@@ -86,7 +86,7 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
             {PHONES.map((p) => (
               <li key={p}>
-                <a href={`tel:${p}`} className="inline-flex items-center gap-2 hover:text-primary">
+                <a href={`tel:+91${p}`} className="inline-flex items-center gap-2 hover:text-primary">
                   <Phone size={14} /> {p}
                 </a>
               </li>
